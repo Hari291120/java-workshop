@@ -1,5 +1,6 @@
 package workshop.tempdata.beans;
-import java.time.LocalDate;
+
+import java.time.LocalDateTime;
 
 public class Building {
       private String name;
