@@ -8,5 +8,19 @@ public class Building {
       private int floors;
       private LocalDateTime openDataTime;
       private LocalDateTime closeDataTime;
+      private String description;
+      public void area(double area){
+            area=area;
+      }
+         public double getarea(){
+            return area;
+         } 
+      public void floor (double floor) {
+            floor=floor;    
+      }     
+      public double getfloor(){
+            return floors;
+      }
+         }
       
-}
+
