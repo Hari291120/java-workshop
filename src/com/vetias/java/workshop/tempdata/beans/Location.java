@@ -47,4 +47,4 @@ public class Location {
                   ",address:'"+ address +'\''+
                 '}';
             }
-          }
+          }                                                                                                                                                          
