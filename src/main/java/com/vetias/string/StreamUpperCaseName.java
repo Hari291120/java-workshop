@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StreamUpperCaseName {
-
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         List<String> names = new ArrayList<>();
         names.add("hari");
         names.add("jai");
@@ -13,7 +12,7 @@ public class StreamUpperCaseName {
         names.add("nithish");
         names.add("siva");
         names.stream()
-        .filter(name->name.startsWith("s")|| name.startsWith("s"))
+        .filter(name->name.startsWith("s")|| name.startsWith("n"))
         .distinct().map(String::toUpperCase).forEach(System.out::println);
     }
 
