@@ -11,9 +11,12 @@ public class NamesStartsWithSCount {
       names.add("naveen");
       names.add("nithish");
       names.add("siva");
-      long nameCount=names.stream()
-         .filter(name->name.startsWith("n")).count();
+      
+      long nameCount = names.stream()
+      .filter(name->name.startsWith("h")).count();
       System.out.println(nameCount);
+
+      
 
     }
 
